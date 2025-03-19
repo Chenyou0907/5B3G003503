@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台南景點介紹</title>
+    <link rel="stylesheet" href="styles2.css">
+    <style>
+        .spot-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 85%;
+        }
+        
+        .spot-title {
+            color: #ffcc00;
+            border-bottom: 2px solid #ffcc00;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        
+        .spot-image {
+            max-width: 40%;
+            height: auto;
+            display: block;
+            margin: 15px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 18px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        /* 導覽列樣式 */
+        .nav-container {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            width: 100%;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .nav-menu {
+            display: inline-flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            max-width: 90%;
+        }
+        
+        .nav-menu li {
+            margin: 5px 15px;
+            background: none;
+            padding: 0;
+        }
+        
+        .nav-menu a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s, transform 0.2s;
+            display: block;
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+        
+        .nav-menu a:hover {
+            background-color: #ffcc00;
+            color: #000000;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="scenic-background">
+    <!-- 導覽列 -->
+    <div class="nav-container">
+        <ul class="nav-menu">
+            <li><a href="#four-grass">四草綠色隧道</a></li>
+            <li><a href="#jingzai">井仔腳瓦盤鹽田</a></li>
+            <li><a href="#chikan">赤崁樓</a></li>
+            <li><a href="#confucius">台南孔廟</a></li>
+            <li><a href="index.html">返回首頁</a></li>
+        </ul>
+    </div>
+
+    <h1>台南景點介紹</h1>
+    
+    <div id="four-grass" class="spot-container">
+        <h2 class="spot-title">四草綠色隧道</h2>
+        <img src="四草綠色隧道.jpg" alt="四草綠色隧道" class="spot-image">
+        <p>四草綠色隧道在台江國家公園內，裡面有溼地及豐富的生態資源，可以坐船遊覽由紅樹林交織成的綠色隧道，潮間帶的招潮蟹、彈塗魚與紅樹林，體會不一樣的大自然感受。</p>
+    </div>
+    
+    <div id="jingzai" class="spot-container">
+        <h2 class="spot-title">井仔腳瓦盤鹽田</h2>
+        <img src="井仔腳瓦盤鹽田.jpg" alt="井仔腳瓦盤鹽田" class="spot-image">
+        <p>井仔腳瓦盤鹽田是北門的第一座鹽田，西元1818年開始曬鹽，因人工成本過高，在2002年停止曬鹽，鹽田漸漸荒廢，目前開發為觀光景點，遊客在此可體驗傳統曬鹽、挑鹽與收鹽。</p>
+    </div>
+    
+    <div id="chikan" class="spot-container">
+        <h2 class="spot-title">赤崁樓</h2>
+        <img src="赤崁樓.jpg" alt="赤崁樓" class="spot-image">
+        <p>1653年為當時進佔臺灣南部之荷人所建，最初稱為「普羅民遮城」，與安平的「熱蘭遮城」遙遙相對，互為犄角。熱蘭遮城作為荷蘭總督統治中樞，普羅民遮城則作為行政及商業中心。</p>
+    </div>
+    
+    <div id="confucius" class="spot-container">
+        <h2 class="spot-title">台南孔廟</h2>
+        <img src="台南孔廟.jpg" alt="台南孔廟" class="spot-image">
+        <p>「全臺首學」臺灣的第一座孔子廟，台南孔子廟創建於明永曆19年（1665年），當時稱為「先師聖廟」，至今已有三百多年的歷史，由島上第一個漢人政權鄭氏王朝所創立，為的是在臺開辦教育，培養為國效命的人才。清領時期亦延續功能，為臺灣官辦的最高學府「臺灣府學」所在地。直到今日，孔廟依然是讀書人的聖廟，有著崇高的地位。</p>
+    </div>
+    
+    <a href="#" class="back-to-top">↑</a>
+
+    <script>
+        // 雪花生成函數
+        function createSnowflake() {
+            const snowflake = document.createElement('div');
+            snowflake.className = 'snowflake';
+            snowflake.innerHTML = '❄'; // 雪花符號
+            snowflake.style.left = Math.random() * 100 + 'vw'; // 隨機水平位置
+            snowflake.style.fontSize = Math.random() * 1.5 + 0.5 + 'em'; // 隨機大小
+            document.body.appendChild(snowflake);
+
+            // 設置雪花下落時間
+            const fallDuration = Math.random() * 3 + 2; // 隨機下落時間
+            snowflake.style.animationDuration = fallDuration + 's';
+
+            // 移除雪花
+            snowflake.addEventListener('animationend', () => {
+                snowflake.remove();
+            });
+        }
+
+        // 每隔一段時間生成雪花
+        setInterval(createSnowflake, 300); // 每 300 毫秒生成一個雪花
+    </script>
+</body>
+</html>
